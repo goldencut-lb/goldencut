@@ -147,15 +147,19 @@ body::before {
   opacity: 0;
   animation: fadeUp 1.2s 0.4s ease forwards;
   line-height: 0.88;
+  display: flex;
+  align-items: baseline;
+  gap: 0.15em;
 }
 
 .wm-top {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
+  font-style: italic;
   font-size: clamp(60px, 17vw, 108px);
-  letter-spacing: 0.14em;
+  letter-spacing: 0.06em;
   color: var(--cream);
-  display: block;
+  display: inline;
 }
 
 .wm-btm {
@@ -165,7 +169,7 @@ body::before {
   font-size: clamp(60px, 17vw, 108px);
   letter-spacing: 0.06em;
   color: var(--gold);
-  display: block;
+  display: inline;
 }
 
 .hero-rule {
@@ -612,7 +616,7 @@ footer {
   <div class="hero-content">
     <p class="hero-eyebrow">Premium Air-Dried · Brazilian Beef · 75g</p>
     <div class="hero-wordmark">
-      <span class="wm-top">GOLDEN</span>
+      <span class="wm-top">Golden</span>
       <span class="wm-btm">Cut</span>
     </div>
     <div class="hero-rule"></div>
